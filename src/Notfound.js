@@ -12,3 +12,4 @@ const Notfound = () => {
 }
  
 export default Notfound;
+//Error Page

@@ -1,3 +1,4 @@
+//This is home page of blog
 import { useState,useEffect } from "react";
 import Bloglist from "./Bloglist";
 import useFetch from "./useFetch";

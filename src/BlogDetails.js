@@ -1,3 +1,4 @@
+//Used to display details of blog
 import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 import { useHistory } from "react-router-dom/cjs/react-router-dom";
 import { useState } from "react";

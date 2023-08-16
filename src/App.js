@@ -12,7 +12,7 @@ import Notfound from "./Notfound.js";
 function App() {
   //dynamic values in templates...
   // const title="The Blogs"
-  // const user="dhairya shah"
+  // const user="Dhiarya Shah
   // const likes=500
   // const link="https://react.dev/learn "
   return (

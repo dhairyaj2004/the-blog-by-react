@@ -1,3 +1,4 @@
+//Used to display list of blog
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 const Bloglist = ({blogs,title,/*handleDelete*/}) => {
     // const blogs=props.blogs
