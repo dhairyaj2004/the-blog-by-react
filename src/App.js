@@ -2,11 +2,7 @@ import Navbar from "./Navbar.js";
 import "./App.css";
 import Home from "./Home.js";
 import Create from "./Create.js";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import BlogDetails from "./BlogDetails.js";
 import Notfound from "./Notfound.js";
 function App() {
@@ -20,11 +16,14 @@ function App() {
       <div className="App">
         <Navbar />
         <div className="content">
-           {/* <h1>{title}</h1> ("YOU CAN TRY JSX AND UNDERSTAND IT BY COMMENTED CODE")
-           <p>Liked by {user} & {likes} more</p>
-           <a target="_blank" href={link}>react</a> */}
+          {/* <h1>{title}</h1> ("YOU CAN TRY JSX AND UNDERSTAND IT BY COMMENTED CODE")
+           <p>Liked by {user} & {likes} more</p> */}
+           {/* <a target="_blank" href="react.dev">react</a> */}
           <Switch>
-            <Route exact/*added exact bcz / and /create both matches and giving same page Home.js */path="/"> 
+            <Route
+              exact
+              /*added exact bcz / and /create both matches and giving same page Home.js */ path="/"
+            >
               <Home />
             </Route>
             <Route path="/Create">
@@ -43,4 +42,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;
